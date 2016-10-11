@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:paddingLeft="30dp"
+              android:paddingRight="30dp"
+              android:paddingTop="15dp"
+              android:paddingBottom="15dp"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/item_main_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/shangpinguanli"/>
+
+    <TextView
+        android:id="@+id/item_main_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="商品管理"
+        android:textColor="@color/black"/>
+</LinearLayout>

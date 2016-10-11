@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/tran_black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/wright"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/qqhaoyou"
+                android:text="QQ好友"
+                android:drawableTop="@mipmap/qqhaoyou"
+                style="@style/fenxiang_stytle"/>
+            <TextView
+                android:id="@+id/qqkongjian"
+                android:text="QQ空间"
+                android:drawableTop="@mipmap/qqkongjian"
+                style="@style/fenxiang_stytle"/>
+            <TextView
+                android:id="@+id/weixinhaoyou"
+                android:text="微信好友"
+                android:drawableTop="@mipmap/weixinhaoyou"
+                style="@style/fenxiang_stytle"/>
+            <TextView
+                android:id="@+id/pengyouquan"
+                android:text="朋友圈"
+                android:drawableTop="@mipmap/pengyouquan"
+                style="@style/fenxiang_stytle"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="@color/gray"/>
+        <TextView
+            android:id="@+id/quxiao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
